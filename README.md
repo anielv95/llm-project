@@ -21,3 +21,20 @@ apt update
 apt install pipx
 pipx ensurepath
 ```
+
+Install poetry:
+
+```
+pipx install poetry
+pipx upgrade poetry
+```
+
+Add a directory to PATH variable:
+```
+echo 'export PATH="$PATH:/root/.local/bin"' >> ~/.bashrc
+source ~/.bashrc
+```
+#pipx ensurepath --global
+
+#. ~/.bashrc
+# exec "$SHELL"
