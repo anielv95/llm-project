@@ -11,4 +11,5 @@ RUN curl https://pyenv.run | bash &&\
         apt update &&\
         apt install --yes pipx &&\
         pipx install poetry
+RUN /root/.local/pipx/venvs/poetry/bin/poetry self add 'poethepoet[poetry_plugin]'
 CMD ["/bin/bash"]
