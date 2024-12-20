@@ -12,5 +12,7 @@ format:
 test:
 	python -m pytest -vv -s --cov=functions src/test_functions.py
 
-# date:
-# 	#
+date:
+	echo "" >> next-steps.md &&\
+	TZ='America/Mexico_City' date "+%Y-%m-%d %H:%M:%S %z" >> next-steps.md &&\
+	echo "" >> next-steps.md
