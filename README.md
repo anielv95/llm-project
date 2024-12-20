@@ -34,3 +34,5 @@ Add a directory to PATH variable:
 echo 'export PATH="$PATH:/root/.local/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+Use Elastic Kubernetes Service as an alternative to Sagemaker 
