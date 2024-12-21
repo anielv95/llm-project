@@ -8,7 +8,7 @@ Fri Dec 20 14:23:00 CST 2024
 4. add env var for poetry path. done.
 5. update dockerfile for using a single run comand. done.
 6. add git config --global user.email "you@example.com" in dockerfile. in progress
-7. add git config --global user.name "Your Name"
+7. add git config --global user.name "Your Name". in progress
 8. date command. done
 
 2024-12-20 15:12:53 -0600
