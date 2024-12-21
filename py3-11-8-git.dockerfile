@@ -16,5 +16,7 @@ RUN curl https://pyenv.run | bash &&\
         apt update &&\
         apt install --yes pipx &&\
         pipx install poetry &&\
-        poetry self add 'poethepoet[poetry_plugin]'
+        poetry self add 'poethepoet[poetry_plugin]' &&\
+        git config --global user.email $GH_EMAIL &&\
+        git config --global user.name $GH_USER
 CMD ["/bin/bash"]
