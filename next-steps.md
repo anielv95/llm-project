@@ -7,7 +7,7 @@ Fri Dec 20 14:23:00 CST 2024
     2. add building and pushing steps in CI pipeline to Docker registry. done
 4. add env var for poetry path. done.
 5. update dockerfile for using a single run comand. done.
-6. add git config --global user.email "you@example.com" in dockerfile
+6. add git config --global user.email "you@example.com" in dockerfile. in progress
 7. add git config --global user.name "Your Name"
 8. date command. done
 

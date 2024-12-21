@@ -42,7 +42,8 @@ jobs:
           push: true
           #tags: ${{ steps.meta.outputs.tags }}
           tags: aniel95/llm-project:v0
-          build-args: |
-            GH_EMAIL=${{ secrets.GH_EMAIL }}
-            GH_USER=${{ secrets.GH_USER }}
+          # build-args: |
+          #   - GH_EMAIL=${{ secrets.GH_EMAIL }}
+          #   - GH_USER=${{ secrets.GH_USER }}
+          build-args: GH_EMAIL=${{ secrets.GH_EMAIL }}
           labels: ${{ steps.meta.outputs.labels }}
