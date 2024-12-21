@@ -5,8 +5,8 @@ Fri Dec 20 14:23:00 CST 2024
 3. add continuous integration pipeline with github actions
     1. add test, lint and format in continuous integration pipeline. pending, steps no needed so far
     2. add building and pushing steps in CI pipeline to Docker registry. done
-4. add env var for poetry path
-5. update dockerfile for using a single run comand
+4. add env var for poetry path. done.
+5. update dockerfile for using a single run comand. done.
 6. add git config --global user.email "you@example.com" in dockerfile
 7. add git config --global user.name "Your Name"
 8. date command. done
