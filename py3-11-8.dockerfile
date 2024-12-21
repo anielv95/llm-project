@@ -1,5 +1,6 @@
 FROM python:3.11.8
 WORKDIR /gh
+ENV PATH=/root/.local/bin:$PATH
 RUN curl https://pyenv.run | bash &&\
         echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc &&\
         echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc &&\
@@ -11,5 +12,5 @@ RUN curl https://pyenv.run | bash &&\
         apt update &&\
         apt install --yes pipx &&\
         pipx install poetry &&\
-        /root/.local/pipx/venvs/poetry/bin/poetry self add 'poethepoet[poetry_plugin]'
+        poetry self add 'poethepoet[poetry_plugin]'
 CMD ["/bin/bash"]
