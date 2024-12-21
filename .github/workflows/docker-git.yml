@@ -38,10 +38,10 @@ jobs:
         uses: docker/build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671
         with:
           context: .
-          file: ./py3-11-8.dockerfile
+          file: ./py3-11-8-git.dockerfile
           push: true
           #tags: ${{ steps.meta.outputs.tags }}
-          tags: aniel95/pyenv-pipx-poetry:install
+          tags: aniel95/llm-project:v0
           build-args: |
             GH_EMAIL=${{ secrets.GH_EMAIL }}
             GH_USER=${{ secrets.GH_USER }}
