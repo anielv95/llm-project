@@ -14,3 +14,7 @@ Fri Dec 20 14:23:00 CST 2024
 2024-12-20 15:12:53 -0600
 
 1. create another pipeline to build and push a second docker image where I will use my github email and my github username. done
+
+2024-12-27 12:49:53 -0600
+
+1. learn terraform to deploy the cloud infraestructure needed in AWS, Azure and GCP to have the docker images and the CI/CD pipelines in those cloud providers
