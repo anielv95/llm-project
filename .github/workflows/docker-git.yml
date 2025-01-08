@@ -41,7 +41,7 @@ jobs:
           file: ./py3-11-8-git.dockerfile
           push: true
           #tags: ${{ steps.meta.outputs.tags }}
-          tags: aniel95/llm-project:v0
+          tags: aniel95/llm-project:terraform-installation
           build-args: |
             GH_EMAIL=${{ secrets.GH_EMAIL }}
             GH_USER=${{ secrets.GH_USER }}
