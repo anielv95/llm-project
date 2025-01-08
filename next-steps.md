@@ -17,4 +17,4 @@ Fri Dec 20 14:23:00 CST 2024
 
 2024-12-27 12:49:53 -0600
 
-1. learn terraform to deploy the cloud infraestructure needed in AWS, Azure and GCP to have the docker images and the CI/CD pipelines in those cloud providers
+1. learn terraform to deploy the cloud infraestructure needed in AWS, Azure and GCP to have the docker images and the CI/CD pipelines in those cloud providers. done
