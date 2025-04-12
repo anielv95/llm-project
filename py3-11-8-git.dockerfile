@@ -26,5 +26,6 @@ RUN curl https://pyenv.run | bash &&\
         tee /etc/apt/sources.list.d/hashicorp.list &&\
         apt update && apt install terraform &&\
         apt install --yes vim &&\
-	echo "set number">>/etc/vim/vimrc
+	echo "set number">>/etc/vim/vimrc &&\
+	echo "success"
 CMD ["/bin/bash"]
